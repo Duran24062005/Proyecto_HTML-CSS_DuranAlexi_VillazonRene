@@ -22,7 +22,7 @@ Por favor acceder al link de Adobe XD para revisar el wireframe planteado:
 
 https://xd.adobe.com/view/57a23a55-611a-4d58-8126-90f0ecb953c0-02f1/
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eaa1771c-fc19-40d4-8527-37ca1caab8fa/c069ce9e-709a-4a9a-8f8f-e77a97b133ba/Untitled.png)
+![Untitled](./img/interfaz.webp)
 
 ## Requerimientos técnicos
 
