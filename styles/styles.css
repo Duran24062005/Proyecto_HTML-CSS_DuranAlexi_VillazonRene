@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vi;
+    height: 100vh;
+
+}
+
+.flex-box {
+    width: 100vi;
+    height: 100vh;
+    background-color: black;
+}
+
+.img-background {
+    background: transparent url(../img/LoadingScreen/pexels-pixabay.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+img {
+    margin: 0 auto;
+    top: 36%;
+    width: 30vi;
+    position: relative;
+}
