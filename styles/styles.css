@@ -45,7 +45,7 @@ main {
     padding: 4%;
     display: flex;
     justify-content: center;
-    animation: notVisibility ease-in-out 5.4s forwards;*
+    animation: notVisibility ease-in-out 5.4s forwards;
 }
 
 /*LogIn Panel*/
