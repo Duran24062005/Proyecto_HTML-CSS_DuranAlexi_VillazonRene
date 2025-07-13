@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/added.css">
     <title>Modal</title>
 </head>
+
 <body>
     
+        <form method="dialog">
+            <h1>Nuevo</h1>
+
+            <div class="input-container-1">
+                <div class="input-group">
+                    <label for="indicador">Indicador</label>
+                    <input id="indicador" name="indicador" type="text">
+                </div>
+                <div    class="input-group">
+                    <label for="descripcion">Descripción</label>
+                    <input id="descripcion" name="descripcion" type="text">
+                </div>
+            </div>
+
+            <div class="categorias-container">
+                <label class="categoria-label">Categoría</label>
+                <div class="categorias">
+                    <div >
+                        <input type="radio" name="categoria" id="bajo">
+                        <label for="bajo" class="button bajo">Bajo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="categoria" id="medio">
+                        <label for="medio" class="button medio">Medio</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="categoria" id="alto">
+                        <label for="alto" class="button alto">Alto</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="fecha-inicio">Fecha de Inicio</label>
+                    <input type="date" name="fecha-inicio" id="fecha-inicio">
+                </div>
+                <div class="input-group">
+                    <label for="fecha-fin">Fecha de Finalización</label>
+                    <input type="date" name="fecha-fin" id="fecha-fin">
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="formula">Fórmula</label>
+                    <input type="text" name="formula" id="formula">
+                </div>
+                <div class="input-group">
+                    <label for="frecuencia">Frecuencia</label>
+                    <input type="text" name="frecuencia" id="frecuencia">
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="cumplimiento">Cumplimiento</label>
+                    <input type="number" name="cumplimiento" id="cumplimiento">
+                </div>
+                <div class="input-group">
+                    <label for="area">Área</label>
+                    <select name="area" id="area">
+                        <option value="" disabled selected>Seleccione un área</option>
+                        <option value="area1">Área 1</option>
+                        <option value="area2">Área 2</option>
+                        <option value="area3">Área 3</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="button cancel">Cancelar</button>
+                <button class="button delete">Eliminar</button>
+            </div>
+        </form>
+   
 </body>
+
 </html>

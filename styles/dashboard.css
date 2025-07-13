@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+.header .logito,
+.user-img {
+  width: 5%;
+}
+.user-img {
+  width: 45%;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vw 0;
+  border-bottom: #000000 solid 1px;
+  position: fixed;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 1rem;
+  color: #000000;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+}
+table {
+  width: 90%;
+  margin-bottom: 2rem;
+  overflow: scroll;
+  border-collapse: collapse;
+  gap: 1rem;
+}
+thead tr th {
+    padding: 1rem;
+  text-align: center;
+}
+
+tbody tr {
+  text-align: center;
+  border-collapse: separate;
+  border: 1px solid #1f1b1b;
+border-radius: 1rem;
+  
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+footer {
+  display: flex;
+  margin-bottom: 2%;
+  position: fixed;
+  bottom: 0;
+}
+.add {
+  background-color: #f96c1a;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  color: white;
+  padding: 1vw 4vw;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
