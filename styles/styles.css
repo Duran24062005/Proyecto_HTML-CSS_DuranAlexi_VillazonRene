@@ -172,6 +172,10 @@ input:focus {
     font-size: 2vw;
 }
 
+.access-text-desc {
+    font-size: 1.7vw;
+}
+
 /* --- Animaciones --- */
 @keyframes fadeOutScreen {
   0% {
