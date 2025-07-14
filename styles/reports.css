@@ -1,3 +1,8 @@
+:root {
+    --color: #f96c1a;
+    --background-color: #D9D9D9;
+}
+
 * {
     box-sizing: border-box;
     border: 0;
@@ -12,4 +17,9 @@ body {
 
  .main {
     display: grid;
+ }
+
+ input:focus {
+    border-color: #f96c1a;
+    outline: none;
  }
