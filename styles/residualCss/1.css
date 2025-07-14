@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*First Screen*/
+.first-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 1;
+    animation: fadeOut 2s ease-in-out 2s forwards;
+}
+
+.img-background {
+    width: 100%;
+    height: 100%;
+    background: url(../img/LoadingScreen/pexels-pixabay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.img-logo {
+    margin: 0 auto;
+    top: 36%;
+    width: 30vi;
+    position: relative;
+    animation: fadeOut 1s ease-in-out 2s forwards;
+}
+
+/*Access Panels*/
+.main-box {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 1;
+    animation: fadeOut 2s ease-in-out 10s forwards;
+}
+
+/*General Panels styles*/
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #ffffff;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 8vh;
+    padding: 2vw;
+    border-radius: 4vw;
+}
+/*LogIn Panel styles*/
+.logIn {
+    animation: notVisibility 3s ease-in-out 6s forwards;
+}
+
+.logIn-img-container {
+    text-align: center;
+}
+
+.logIn-img {
+    width: 10vw;
+    margin-bottom: 0.5vh;
+}
+
+.img-text {
+    font-size: 2vw;
+    font-style: normal;
+}
+
+.logIn-title {
+    width: 33vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.logIn-title-p {
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.label-logIn {
+    font-size: 2vw;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 5vh;
+    padding-left: 3vw;
+}
+
+input:focus {
+    border-color: #f96c1a;
+    outline: none;
+}
+
+.btn-logIn {
+    padding: 1vw;
+    border: none;
+    background-color: #f96c1a;
+    color: #ffffff;
+    font-size: 1.4vw;
+    border-radius: 10vw;
+    width: 30vw;
+}
+
+.btn-logIn:hover {
+    background-color: #bd4e0d;
+}
+
+.logIn-text {
+    font-size: 1vw;
+}
+
+/*Access Successfully Panel Styles*/ 
+.access {
+    animation: notVisibility 1 ease-in-out 7s forwards;
+}
+
+.access-img-container {
+    text-align: center;
+}
+
+.access-title {
+    width: 33vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.user-img {
+    width: 10vw;
+}
+
+.user-name {
+    font-size: 2vw;
+}
+
+
+/*Animación*/
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@keyframes notVisibility {
+    0%,75% {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    
+    100% {
+        opacity: 1;
+        visibility: visible;
+        display: flex;
+    }
+}
