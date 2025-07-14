@@ -10,7 +10,8 @@ body {
   align-items: center;
   
 }
-.header div {
+.header a {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 6%;
@@ -52,15 +53,17 @@ table {
   gap: 1rem;
 }
 thead tr th {
-    padding: 1rem;
+    padding: 1vw;
   text-align: center;
+    font-size: 1.1vw;
+  font-weight: 600;
 }
 
 tbody tr {
   text-align: center;
   border-collapse: separate;
   border: 1px solid #1f1b1b;
-border-radius: 1rem;
+    font-size: 1.1vw;
   
 }
 
@@ -82,4 +85,13 @@ footer {
   border: none;
   border-radius: 2rem;
   cursor: pointer;
+}
+.header a h1 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.header a img {
+width: 2vw;
 }
