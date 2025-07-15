@@ -31,7 +31,7 @@ body {
     padding-right: 1rem;
 }
 
-form {
+.form {
     width: 100vw;
     padding: 3vw;
     display: flex;
@@ -39,22 +39,23 @@ form {
     flex-direction: column;
 }
 
-ul {
+.ul {
     margin: 0 auto;
     width: 70vw;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: auto;
+    
     gap: 2rem;
 }
 
-li {
+.li {
     display: flex;
     flex-direction: column;
 }
 
 label {
-    font-size: 2vw;
+    font-size: 2vh;
     margin-bottom: 0.2rem;
 }
 
@@ -94,6 +95,7 @@ input:focus {
     padding-left: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border: none;
     border-radius: 1vw;
     background-color: var(--background-color);
 }
@@ -105,6 +107,7 @@ input:focus {
     background-color: var(--background-color);
     padding: 0.5vh;
     border-radius: 1vw;
+    margin-bottom: 2rem;
 }
 
 .upload {
@@ -127,4 +130,38 @@ input:focus {
 .upload-file-img {
     width: 3vw;
     height: 2.5vh;
+}
+
+.btns {
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+
+.btn {
+    width: 15vw;
+    height: 4vh;
+    border: none;
+    border-radius: 2vw;
+}
+
+.btn-cancel {
+    color: #666060;
+    background-color: var(--background-color);
+}
+
+.btn-cancel:hover {
+    color: white;
+    background-color: #c0bbbb;
+}
+
+.btn-report {
+    color: white;
+    background-color: var(--color);
+}
+
+.btn-report:hover {
+    background-color: #bd4d0c;
 }
