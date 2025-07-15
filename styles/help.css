@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    h2{    font-weight: 600;}
+    p{
+        font-weight: 300;;
+    }
+    h1{
+        font-weight: 600;
+    }
+.help-main-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 5vw;
+  gap: 1vw;
+}
+
+.help-search-container {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d99c;
+  width: 35%;
+  padding: 1%;
+  border-radius: 5px;
+  gap: 1.5vw;
+}
+.help-search {
+  background: none;
+  border: none;
+}
+.help-main-container2 {
+    color: #807f7f;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1vw;
+}
+.help-main-container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 0.5rem;
+  background-color: #d9d9d99c;
+}
+.help-main-container4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5vw;
+}
+.footer-help {
+  display: flex;
+  margin-bottom: 2%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+}
+.add {
+  border-radius: 50%;
+  padding: 1vw 1.4vw;
+
+}
+.add img{
+  width: 3vw;
+  min-width: 45px;
+
+}@media (max-width: 768px) {
+    .help-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 14vw;
+    }
+    .help-search-container {
+        width: 100%;
+    }
+    .help-main-container1, .help-main-container2, .help-main-container3, .help-main-container4 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2{    font-size: 4.5vw;}
+    p{
+        font-size: 3.5vw;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    .help-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 14vw;
+    }
+    .help-main-container3,.help-search-container {
+         padding: 3%;
+    }
+    .help-main-container4 img{
+        width: 100%;
+        height: auto;
+    }
+       
+    .help-search-container {
+        width: 100%;
+    }
+    .help-main-container1, .help-main-container2, .help-main-container3, .help-main-container4 {
+        width: 100%;
+    }
+}

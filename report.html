@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Reportes</title>
     <link rel="stylesheet" href="./styles/reports.css">
     <link rel="shortcut icon" href="./img/LoadingScreen/kario sin kairo.svg" type="image/x-icon">
+=======
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <link rel="stylesheet" href="./styles/added.css">
+    <title>Document</title>
+>>>>>>> working-i'm
 </head>
+<<<<<<< HEAD
 <body>
     <h1 class="title">Reportes PQRS</h1>
     <main class="main">
@@ -54,4 +62,154 @@
         </form>
     </main>
 </body>
+=======
+
+<section class="dashboard">
+    <header class="header">
+        <div class="div-burger"> <label for="burger">
+                <img class="burger-img" src="./img/Main Page/Icon open-menu-2.svg" alt=""></label><input name="burger"
+                id="burger" type="checkbox">
+            <div class="burger-menu">
+                <a href="#dialogito">
+                    <img src="./img/Main Page/Group 7.svg" alt="">
+                    <h1>Añadir</h1>
+                </a>
+                <a href="#">
+                    <img src="./img/Main Page/Icon open-reload.svg" alt="">
+                    <h1>Refrescar</h1>
+                </a>
+                <a href="./delete.html">
+                    <img src="./img/Main Page/Icon material-delete-forever.svg" alt="">
+                    <h1>Eliminar</h1>
+                </a>
+                <a  href="./report.html">
+                    <img src="./img/Main Page/Icon material-bug-report.svg" alt="">
+                    <h1>Reportar</h1>
+                </a>
+                <a href="./help.html">
+                    <img src="./img/Main Page/Icon ionic-ios-help-circle.svg" alt="">
+                    <h1>Ayuda</h1>
+                </a>
+            </div>
+        </div>
+        <a class="escritorio" href="#dialogito">
+            <img src="./img/Main Page/Group 7.svg" alt="">
+            <h1>Añadir</h1>
+        </a>
+        <a  class="escritorio" href="./dashboard.html">
+            <img src="./img/Main Page/Icon open-reload.svg" alt="">
+            <h1>Refrescar</h1>
+        </a>
+        <a  class="escritorio" href="./delete.html">
+            <img src="./img/Main Page/Icon material-delete-forever.svg" alt="">
+            <h1>Eliminar</h1>
+        </a>
+
+        <img class="logito" src="./img/Main Page/kario sin kairo.svg" alt="">
+
+        <a  class="escritorio" href="./report.html">
+            <img src="./img/Main Page/Icon material-bug-report.svg" alt="">
+            <h1>Reportar</h1>
+        </a>
+        <a  class="escritorio"  href="./help.html">
+            <img src="./img/Main Page/Icon ionic-ios-help-circle.svg" alt="">
+            <h1>Ayuda</h1>
+        </a>
+        <div class="holis">
+            <img src="./img/Main Page/Icon ionic-ios-settings.svg" alt="">
+            <img src="./img/Main Page/Icon material-notifications-active.svg" alt="">
+            <img class="user-img" src="./img/Main Page/pp@2x.png" alt="">
+        </div>
+
+    </header>
+    <main class="report-main">
+
+    </main>
+    <footer class="footer">
+        <a href="#dialogito"><button class="add">Añadir Nuevo Elemento</button></a>
+    </footer>
+    <dialog class="body" closedby="any" id="dialogito">
+
+
+        <form class="form" id="form" method="dialog">
+            <h1>Nuevo</h1>
+
+            <div class="input-container-1">
+                <div class="input-group">
+                    <label for="indicador">Indicador</label>
+                    <input id="indicador" name="indicador" type="text">
+                </div>
+                <div class="input-group">
+                    <label for="descripcion">Descripción</label>
+                    <input id="descripcion" name="descripcion" type="text">
+                </div>
+            </div>
+
+            <div class="categorias-container">
+                <label class="categoria-label">Categoría</label>
+                <div class="categorias">
+                    <div>
+                        <input type="radio" name="categoria" id="bajo">
+                        <label for="bajo" class="button bajo">Bajo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="categoria" id="medio">
+                        <label for="medio" class="button medio">Medio</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="categoria" id="alto">
+                        <label for="alto" class="button alto">Alto</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="fecha-inicio">Fecha de Inicio</label>
+                    <input type="date" name="fecha-inicio" id="fecha-inicio">
+                </div>
+                <div class="input-group">
+                    <label for="fecha-fin">Fecha de Finalización</label>
+                    <input type="date" name="fecha-fin" id="fecha-fin">
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="formula">Fórmula</label>
+                    <input type="text" name="formula" id="formula">
+                </div>
+                <div class="input-group">
+                    <label for="frecuencia">Frecuencia</label>
+                    <input type="text" name="frecuencia" id="frecuencia">
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="cumplimiento">Cumplimiento</label>
+                    <input type="number" name="cumplimiento" id="cumplimiento">
+                </div>
+                <div class="input-group">
+                    <label for="area">Área</label>
+                    <select name="area" id="area">
+                        <option value="" disabled selected>Seleccione un área</option>
+                        <option value="area1">Área 1</option>
+                        <option value="area2">Área 2</option>
+                        <option value="area3">Área 3</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <a href="#" class="button cancel">Cancelar</a>
+                <a href="#" class="button delete">Eliminar</a>
+            </div>
+        </form>
+
+
+    </dialog>
+</section>
+
+>>>>>>> origin/HEAD
 </html>
