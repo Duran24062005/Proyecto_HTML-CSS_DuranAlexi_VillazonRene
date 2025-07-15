@@ -3,23 +3,128 @@
     --background-color: #D9D9D9;
 }
 
+
 * {
-    box-sizing: border-box;
-    border: 0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
- }
+    font-family: Arial, Helvetica, sans-serif;
+}
 
- .main {
+.title {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size: 5vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+form {
+    width: 100vw;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0 auto;
+    width: 70vw;
     display: grid;
- }
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    gap: 2rem;
+}
 
- input:focus {
-    border-color: #f96c1a;
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2vw;
+    margin-bottom: 0.2rem;
+}
+
+input {
+    height: 3vh;
+    border: none;
+    border-radius: 3rem;
+    padding-left: 1rem;
+    background-color: var(--background-color);
+}
+
+input:focus {
+    border: 1px solid;
+    border-color: var(--color);
     outline: none;
- }
+}
+
+.type-user {
+    height: 3vw;
+    border: none;
+    border-radius: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--background-color);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.textarea {
+    height: 10vh;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1vw;
+    background-color: var(--background-color);
+}
+
+.evidence {
+    display: flex;
+    justify-content: space-between;
+    height: 3.6vw;
+    background-color: var(--background-color);
+    padding: 0.5vh;
+    border-radius: 1vw;
+}
+
+.upload {
+    width: 13vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color);
+    color: white;
+    font-size: 2vw;
+    border: none;
+    border-radius: 1vw;
+    padding: 0.3vw;
+}
+
+.upload:hover {
+    background-color: #bd4d0c;
+}
+
+.upload-file-img {
+    width: 3vw;
+    height: 2.5vh;
+}

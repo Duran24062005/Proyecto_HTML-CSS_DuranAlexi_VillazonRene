@@ -9,25 +9,49 @@
 </head>
 <body>
     <h1 class="title">Reportes PQRS</h1>
-    <form action="none" class="main">
-        <ul>
-            <li>
-                <label for="document">*Número de documento</label>
-                <input type="text" name="document" id="document" placeholder="Número de Documento">
-            </li>
-            <li>
-                <label for="document">Nombres</label>
-                <input type="text" name="document" id="document" placeholder="Nombres">
-            </li>
-            <li>
-                <label for="document">Apellidos</label>
-                <input type="text" name="document" id="document" placeholder="Apellidos">
-            </li>
-            <li>
-                <label for="document">Email</label>
-                <input type="email" name="document" id="document" placeholder="Email">
-            </li>
-        </ul>
-    </form>
+    <main class="main">
+        <form action="">
+            <ul>
+                <li>
+                    <label for="document">*Número de documento</label>
+                    <input type="text" name="document" id="document" placeholder="Número de Documento">
+                </li>
+                <li>
+                    <label for="first_name">Nombres</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Nombres">
+                </li>
+                <li>
+                    <label for="lastName">Apellidos</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Apellidos">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </li>
+                <li>
+                    <label for="phone">Teléfono Celular o fijo</label>
+                     <input type="phone" name="phone" id="phone" placeholder="Celular o fijo">
+                </li>
+                <li>
+                    <label for="user_type">Tipo de usuario</label>
+                    <select name="user_type" id="user_type"  class="type-user">
+                        <option value="" class="type-user"><<'select'>></option>
+                        <option value="" class="type-user">Admin</option>
+                        <option value="" class="type-user">Desarrollador</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="information">
+                <textarea class="textarea" name="" id="" placeholder="Describe tu problema"></textarea>
+                <div class="evidence">
+                    <p>Agregar imagen(si es necesario)</p><button class="upload">Subir <img src="./img/MainPage/upload-file-img.png" alt="upload file img" class="upload-file-img"></button>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="btn-cancel">Cacelar</button>
+                <button class="btn-report">Reportar</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
