@@ -75,12 +75,12 @@ a {
   color: #000000;
 }
 
-.dashboard-main {
+.dashboard-main, .help-main {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 14vw;
+  padding-top: 8vw;
 }
 
 .tabla {
@@ -163,6 +163,13 @@ footer {
 
 
 @media (max-width: 768px) {
+  .dashboard-main, .help-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14vw;
+}
   .logito{
   width: 8%;
 }
@@ -221,8 +228,15 @@ footer {
   }
 }
 
-/* Media Query: Móviles */
+
 @media (max-width: 480px) {
+  .dashboard-main, .help-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14vw;
+}
   .header a h1 {
     font-size: 4vw;
   }
