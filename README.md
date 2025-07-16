@@ -1,4 +1,27 @@
-# Proyecto HTML - CSS Alexi Durán y Rene Villazón
+# Proyecto S2 HTML - CSS Alexi Durán y Rene Villazón  15/07/2025
+
+
+Este proyecto fue desarrollado por Alexi Durán Gómez y René Vizallon, actualmente estudiantes de campuslands.
+
+## Objetivos
+
+- Demostrar nuestros conocimientos adquiriedos durante las clases de html y css.
+
+- Poner a prueba nuestros conocimientos, nuestra capacidad para generar un producto de calidad.
+
+- Practicar y disfrutar de nuestro proceso academico.
+
+## Proceso
+
+Al 
+
+1. Revisar uel diseño planteado por el docente en Adobe XD.
+2. Pasarlo a Figma.
+3. Completar la propuesta.
+4. Entregar un producto funcional.
+
+## Metodología
+
 
 **SVG Preview** extension
 
